@@ -1,16 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Freelancer</title>
 </head>
+
 <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand me-auto c-white" href="#">START BOOTSTRAP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active c-white" aria-current="page" href="#">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link c-white" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled c-white">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <main>
+        <!-- SECTION AVATAR -->
+        <section>
+            <div class="card mx-auto bg-green-blue">
+                <img src="./assets/img/avatar.svg" class="card-img-top img-avatar" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title c-white">START BOOTSTRAP</h2>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="line"></div>
+                        <i class="fa-solid fa-star c-white"></i>
+                        <div class="line"></div>
+                    </div>
+                    <div class="margin-top-20">
+                        <span class="c-white fs-5">GRAPHIC - WEB DESIGNER - ILLUSTRATOR</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION 2 -->
+        <section>
+            <div class="text-center margin-top-30">
+                <h3 class="">PORTFOLIO</h3>
+                <div class="d-flex align-items-center justify-content-center margin-top-20">
+                    <div class="line bg-body-tertiary"></div>
+                    <i class="fa-solid fa-star c-dark-grey"></i>
+                    <div class="line bg-body-tertiary"></div>
+                </div>
+            </div>
+            <!-- CONTAINER CARD SECTION 2 -->
+            <div class="container text-center">
+                <div class="row">
+                    <!-- CABIN -->
+                    <div class="col-12 col-md-6 col-lg-4 margin-top-20 ">
+                        <img src="./assets/img/cabin.png" class="img-fluid rounded-4" alt="Cabin">
+                    </div>
+                    <!-- CAKE -->
+                    <div class="col-12 col-md-6 col-lg-4 margin-top-20 ">
+                        <img src="./assets/img/cake.png" class="img-fluid rounded-4" alt="Cake">
+                    </div>
+                    <!-- CIRCUS -->
+                    <div class="col-12 col-md-6 col-lg-4 margin-top-20 ">
+                        <img src="./assets/img/circus.png" class="img-fluid rounded-4" alt="Circus">
+                    </div>
+                    <!-- GAME -->
+                    <div class="col-12 col-md-6 col-lg-4 margin-top-20 ">
+                        <img src="./assets/img/game.png" class="img-fluid rounded-4" alt="Game">
+                    </div>
+                    <!-- SAFE -->
+                    <div class="col-12 col-md-6 col-lg-4 margin-top-20 ">
+                        <img src="./assets/img/safe.png" class="img-fluid rounded-4" alt="Safe">
+                    </div>
+                    <!-- SUBMARINE -->
+                    <div class="col-12 col-md-6 col-lg-4 margin-top-20 ">
+                        <img src="./assets/img/submarine.png" class="img-fluid rounded-4" alt="Submarine">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
