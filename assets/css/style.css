@@ -51,4 +51,30 @@ main .fa-star{
     margin-top: 30px;
 }
 
+.margin-right-5{
+    margin-right: 5px;
+}
+
+.with-70-pc-auto{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.padding-bottom-20{
+    padding-bottom: 20px;
+}
+.padding-top-40{
+    padding-top: 40px;
+}
+
+.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.btn-success{
+    border-color: #1abc9c;
+    background-color: #1abc9c;
+}
 
